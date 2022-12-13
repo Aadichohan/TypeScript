@@ -1,4 +1,6 @@
-const a: number = 20;
+let a: number = 20;
 
-console.log('hello ', a)
-// export{}
+if(a > 15){
+    a += 10
+    console.log('hello ', a)
+}
